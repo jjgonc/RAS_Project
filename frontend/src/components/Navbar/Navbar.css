@@ -1,0 +1,175 @@
+.notifications{
+  
+  height: 0px;
+  width: 0px;
+  background-color: bisque;
+ 
+
+}
+
+.navANDnotifications{
+  margin-top: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+
+
+.my-navbar {
+  background-color: rgb(30, 52, 19);
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.my-navbar .left-side {
+  flex: 30%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.my-navbar .left-side img {
+  width: 180px;
+  height: 80px;
+}
+
+.my-navbar .right-side {
+  flex: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.balance {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  height: 30px;
+  width: 30px;
+  margin-top: 30px;
+}
+
+.profile img {
+  width: 30px;
+}
+
+.notifications {
+  height: 30px;
+  width: 30px;
+  margin-top: 13px;
+  background-color: transparent;
+}
+
+.notifications img {
+  width: 30px;
+  
+}
+
+.balance p {
+  width: 80%;
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: white;
+  margin-bottom: 7px;
+  text-align: center;
+
+}
+
+.balance img {
+  width: 40px;
+  margin-bottom: 7px;
+}
+
+
+.balance {
+  margin-top: 30px;
+  width: 150px;
+  
+
+}
+
+.logout img {
+  width: 40px;
+}
+
+.logout {
+  margin-top: 12px;
+  width: 30px;
+
+}
+
+.right-side button{
+  background: none;
+  width: 30px;
+  margin-right: 20px;
+
+}
+
+.my-navbar .right-side .menu-icon {
+  display: none;
+}
+
+.my-navbar .right-side #hidden {
+  display: flex;
+}
+
+.nav-links {
+  max-height: 100px;
+  display: flex;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 950px) {
+  .nav-links .links {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .my-navbar .right-side .menu-icon {
+    display: flex;
+  }
+
+  .my-navbar .right-side .nav-links {
+    display: none;
+  }
+
+  .my-navbar .right-side #hidden {
+    position: absolute;
+    z-index: 5000;
+    top: 80px;
+    right: 0px;
+    max-height: 230px;
+    height: 230px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my-navbar .right-side .links {
+    font-size: 20px;
+    padding-top: 7px;
+  }
+}
+
+;

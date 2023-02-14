@@ -1,0 +1,3 @@
+curl -d "username=saraivinha1&password=Sportig2001&mail=dasdjadsasd" -X POST http://localhost:4000/api/accounts/createUser
+curl -d "username=saraivinha1&password=Sportig2001" -X GET http://localhost:4000/api/accounts/
+

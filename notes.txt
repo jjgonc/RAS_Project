@@ -1,0 +1,8 @@
+Requisito não funcional
+
+
+usabilidade -> 
+
+desempenho ->
+
+escalabilidade ->  Quantos utilizadores em simultaneo deve suportar

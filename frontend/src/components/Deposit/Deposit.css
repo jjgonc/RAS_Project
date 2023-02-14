@@ -1,0 +1,138 @@
+.account-movements{
+    /* background: linear-gradient(#d0ebce, #aec99a);  */
+    background-color: rgb(224,224, 224); 
+    height: 100vh;
+    padding-top: 5%;
+    /* position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px; */
+}
+
+
+.DepositHead {
+    background-color: rgb(30, 52, 19);
+    height: 50px;
+}
+  
+
+.DepositBox {
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  border: 3px solid #fff;
+  padding: 20px;
+  margin-left: 275px;
+  margin-right: 275px;
+  border-radius: 25px;
+  /* margin-top: 5%; */
+  margin-bottom: 5%;
+}
+
+
+.column {
+    float: left;
+    width: 10.0%;
+    padding: 5px;
+}
+
+
+.deposit img{
+    width: 100px;
+}
+
+
+.deposit input[type=number] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.submitBalance button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 5%;
+}
+
+
+.withdraw img{
+    width: 100px;
+}
+
+
+.withdraw input[type=number] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.submitBalance input[type=number] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border-radius: 10px;
+    border:2px solid #214405;
+}
+
+
+.submitBalance button{
+  background-color: rgb(238, 119, 66);
+}
+
+.TwoButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.TwoButtons button{
+    background-color: rgb(226, 133, 10);
+    border-radius: 5px;
+}
+
+.TwoButtons .depositButton{
+    width: 40%;
+    margin-right: 5%;
+}
+
+.TwoButtons .withdrawButton{
+    width: 40%;
+    margin-left: 5%;
+}
+
+
+.successfulOperation p {
+    color: green;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.paymentData p{
+    margin-top: 5px;
+}
+
+.paymentData{
+    margin-top: 15px;
+}
+
+.paymentData input{
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

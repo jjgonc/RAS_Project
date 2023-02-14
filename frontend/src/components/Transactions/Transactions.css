@@ -1,0 +1,101 @@
+.Transactions { 
+  background-color: rgb(224,224, 224); 
+  height: 100vh;
+  width: 100% ;
+  margin: 0px;
+}
+
+.TransactionsHead {
+  background-color: rgb(224, 224, 224);
+  height: 5%;
+
+}
+
+
+
+.TransactionsBox {
+  background-color: rgb(255, 255, 255);
+  height: 80%;
+  border: 3px solid #fff;
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 25px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-style: dotted;
+  border-color: rgb(51,51,51);
+  border-width: 1px; 
+
+}
+
+.TransactionsButtomBack{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+
+
+.TransactionsTitle {
+  color: rgb(40, 61, 29);
+  height: 10%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.TransactionsBalance {
+  color: rgb(40, 61, 29);
+  height: 10%;
+  text-align: center;
+}
+
+.TransactionsTable {
+  height: 79%;
+  overflow: auto;
+  display: flex;
+}
+
+.TransactionsTableLeftTab {
+  float: left;
+  width: 200px;
+}
+
+.TransactionsTableTable {
+  float: right;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  height: inherit;
+
+}
+
+
+.TransactionsTable td {
+  border: none !important;
+  text-align: left;
+  width: 250px;
+}
+
+.TransactionsTable th {
+  background-color: white;
+  color: rgb(40, 61, 29);
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  position: sticky;
+  top: 0;
+  width: 250px;
+  height: 50px;
+
+}
+
+.TransactionsTable tr {
+  height: 10px;
+  display: inline;
+}
+

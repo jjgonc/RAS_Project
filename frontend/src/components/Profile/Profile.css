@@ -1,0 +1,208 @@
+.Profile { 
+  /* background-color: rgb(30, 52, 19); */
+  /* background: linear-gradient(#d0ebce, #aec99a);  */
+  background-color: rgb(224,224, 224); 
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.ProfileHead {
+  background-color: rgb(30, 52, 19);
+  height: 123px;
+}
+
+.ProfileBox {
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  border: 3px solid #fff;
+  padding: 20px;
+  margin-left: 275px;
+  margin-right: 275px;
+  border-radius: 25px;
+  margin-top: 9%;
+  margin-bottom: 10%;
+}
+
+.Username {
+    width: 100%;
+    padding: 20px;
+    border-radius: inherit;
+    text-align: center;
+}
+
+.ProfileButtonsCopyBetterMovimentos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.ProfileCopyBetter{
+  float: left;
+  margin-left: 80px;
+  width: 50%;
+  height: 50px;
+  justify-content: center;
+}
+
+.ProfileCopyBetter .copybetter{
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(226, 133, 10);
+  border-radius: 10px;
+}
+
+.Movimentos {
+  float: left;
+  margin-left: 90px;
+  width: 50%;
+  height: 50px;
+  justify-content: center;
+}
+
+.Movimentos .movimentar{
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(226, 133, 10);
+    border-radius: 10px;
+}
+
+.Saldo{
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+
+.exchange{
+  margin-left: 45%;
+}
+.exchange img{
+ width: 50px;
+}
+
+
+.consultarApostas{
+  width: 70%;
+  height: 70px;
+}
+
+.ConsultaHistoricos{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
+.ConsultaHistoricos .consultarApostas{
+  color: #214405;
+  width: 50%;
+  float: left;
+  height: inherit;
+}
+
+.ConsultaHistoricos .consultarApostas:hover{
+  color: #1fa313;
+}
+
+.ConsultaHistoricos .consultarTransacoes{
+  color: #214405;
+  width: 50%;
+  float: right;
+  height: inherit;
+}
+
+.ConsultaHistoricos .consultarTransacoes:hover{
+  color: #1fa313;
+}
+
+.ConsultaHistoricos .Link{
+  margin: auto;
+}
+
+.LeftInfoPassword{
+  float: left;
+  width: 40%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightInfoPassword{
+  float: right;
+  width: 60%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightInfoPassword input[type=password] {
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border-radius: 10px;
+  border:2px solid #214405;
+}
+
+
+.ConfirmPassword input[type=password] {
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border-radius: 10px;
+  border:2px solid #214405;
+}
+
+.Nationality{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.exchange img{
+  margin-right: 10px;
+}
+
+.exchange select{
+  border-radius: 10px;
+  border:1px solid #214405;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.LeftInfoMail{
+  float: left;
+  width: 40%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightInfoMail{
+  float: right;
+  width: 60%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightInfoMail input[type=text] {
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border-radius: 10px;
+  border:2px solid #214405;
+}
